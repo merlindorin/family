@@ -36,6 +36,3 @@ Static files are exported to the `out/` directory.
 
 DNS and hosting infrastructure is managed with [OpenTofu](https://opentofu.org/) in the `terraform/` directory.
 
-## License
-
-This is a personal family project.

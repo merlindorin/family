@@ -1,0 +1,6 @@
+github.com/nishanths/go-hgconfig v1.0.1 h1:PTxvVU28Q1E4pfscFsrFJ3M2jePaklQ8NI/kPbtAGT4=
+github.com/nishanths/go-hgconfig v1.0.1/go.mod h1:BxAx1BFaeCLA8rRzyF87wlhyrsOzJ/RCVhHS8UIt1wQ=
+github.com/nishanths/license/v5 v5.0.4 h1:l3tPuWghc2+w/XjOJzKL4X+KJikTnLYV6YVBemQACxE=
+github.com/nishanths/license/v5 v5.0.4/go.mod h1:l8HUW6ZQhLN5xpxF91D9H9EqNrpXhm8FOH32LlUe/m4=
+github.com/tcnksm/go-gitconfig v0.1.2 h1:iiDhRitByXAEyjgBqsKi9QU4o2TNtv9kPP3RgPgXBPw=
+github.com/tcnksm/go-gitconfig v0.1.2/go.mod h1:/8EhP4H7oJZdIPyT+/UIsG87kTzrzM4UsLGSItWYCpE=
