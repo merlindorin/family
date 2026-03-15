@@ -20,6 +20,25 @@ data "cloudflare_zone" "redirect" {
 }
 
 # ---------------------------------------------------------------------------
+# HTTPS enforcement
+# ---------------------------------------------------------------------------
+
+resource "cloudflare_zone_settings_override" "main" {
+  zone_id = data.cloudflare_zone.main.id
+  settings {
+    always_use_https = "on"
+  }
+}
+
+resource "cloudflare_zone_settings_override" "redirect" {
+  for_each = toset(local.redirect_domains)
+  zone_id  = data.cloudflare_zone.redirect[each.key].id
+  settings {
+    always_use_https = "on"
+  }
+}
+
+# ---------------------------------------------------------------------------
 # Cloudflare Pages
 # ---------------------------------------------------------------------------
 
